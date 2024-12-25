@@ -1,0 +1,5 @@
+ssh adharsh@192.168.1.2 or ssh adharsh@raspberrypi.local
+sudo raspi-config - gui for configuration of interfaces
+sudo nano /boot/firmware/config.txt - edit the configuration files to get the interfaces.
+https://pinout.xyz/pinout/i2c
+i2cdetect -y 1
