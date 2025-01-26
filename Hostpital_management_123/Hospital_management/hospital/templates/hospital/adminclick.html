@@ -1,0 +1,33 @@
+{% extends 'hospital/homebase.html' %}
+
+{% block content %}
+
+<br>
+<br>
+<style type="text/css">
+  .welcome{
+  font-size: 1.25rem;
+    font-weight: 300;
+    margin-left: 540px;
+}
+  .logbtn{
+margin-left: 600px;
+  }
+  p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 555px;
+  }
+</style>
+<div class="jumbotron" style="margin-bottom:0px;">
+  <h1 class="display-4" style="text-align:center;">Hello, Admin</h1>
+  <p class="welcome">Welcome to Hospital Management System.</p>
+  <hr class="my-4">
+  <p>You can access various features after Login/SignUp.</p>
+  <p class="logbtn">
+    <a class="btn btn-primary btn-lg" href="/adminsignup" role="button">SignUp</a>
+    <a class="btn btn-primary btn-lg" href="/adminlogin" role="button">Login</a>
+  </p>
+</div>
+
+{% endblock content %}
